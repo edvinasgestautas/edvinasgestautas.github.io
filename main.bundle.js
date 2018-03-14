@@ -254,7 +254,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/linkedin/linkedin.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1>LinkedIn component</h1>\n<button (click)=\"test()\">Click me</button>\n<a class=\"nav-link\" href=\"https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86wm601visw1wd&redirect_uri=http://localhost:4200/linkedin&state=cat\">Login</a>"
+module.exports = "<h1>LinkedIn component</h1>\n<button (click)=\"test()\">Click me</button>\n<a class=\"nav-link\" href=\"https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86wm601visw1wd&redirect_uri=https://edvinasgestautas.github.io/&state=cat\">Login</a>"
 
 /***/ }),
 

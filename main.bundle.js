@@ -77,7 +77,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\r\n\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"true\"\r\n    aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n    <ul class=\"navbar-nav\">\r\n      <li class=\"nav-item\">\r\n        <a routerLink=\"/\" class=\"nav-link\">Home</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86wm601visw1wd&redirect_uri=http://localhost:4200/linkedin&state=cat\">Login</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/linkedin\">Profile</a>\r\n      </li>\r\n\r\n    </ul>\r\n  </div>\r\n</nav>\r\n\r\n<router-outlet></router-outlet>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\r\n\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"true\"\r\n    aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n    <ul class=\"navbar-nav\">\r\n      <li class=\"nav-item\">\r\n        <a routerLink=\"/\" class=\"nav-link\">Home</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link\" href=\"https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86wm601visw1wd&redirect_uri=https://edvinasgestautas.github.io/linkedin&state=cat\">Login</a>\r\n      </li>\r\n      <li class=\"nav-item\">\r\n        <a class=\"nav-link\" routerLink=\"/linkedin\">Profile</a>\r\n      </li>\r\n\r\n    </ul>\r\n  </div>\r\n</nav>\r\n\r\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -191,7 +191,7 @@ var LinkedinService = /** @class */ (function () {
         this.authToken = '';
         this.baseUrl = 'https://www.linkedin.com/oauth/v2/accessToken?';
         this.grantType = 'authorization_code';
-        this.redirectUri = 'http://localhost:4200/linkedin';
+        this.redirectUri = 'https://edvinasgestautas.github.io/linkedin';
         this.clientId = '86wm601visw1wd';
         this.clientSecret = 'XQDbxw1vfFn0c0Xj';
         this.headers = {
